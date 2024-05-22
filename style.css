@@ -1,9 +1,14 @@
-a{
-  text-decoration: none;
+body{
+  background-color: whitesmoke;
 }
 
-body{
-  background-color: #161616;
+p{
+  font-family: Arial;
+  font-size: 25px;
+}
+
+a{
+  text-decoration: none;
 }
 
 .navbar{
@@ -30,9 +35,14 @@ li{
   display: inline-block;
 }
 
-li a{
+  .nav-link{
   color: white;
   font-size: 18px;
   font-weight: bold;
   margin-right: 25px;
+}
+
+.grid-layout{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
