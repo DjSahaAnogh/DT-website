@@ -1,48 +1,147 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
 body{
   background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
 }
 
 p{
   font-family: Arial;
   font-size: 25px;
+  margin: 0;
+  padding: 15px 5px;
 }
 
 a{
   text-decoration: none;
+  color: white;
 }
 
 .navbar{
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 780px;
+  padding: 10px 25px;
   text-decoration: none;
-  padding-left: 15px; padding-right: 15px;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   background-color: #23679e;
+  background-image: url(/pics/code_1_loop_img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .navdiv{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .logo{
-  font-size: 35px;
+  font-size: 65px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 600;
   color: white;
 }
 
-li{
+nav ul{
   list-style: none;
-  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
-  .nav-link{
+.nav-link{
   color: white;
-  font-size: 18px;
+  font-size: 26px;
   font-weight: bold;
-  margin-right: 25px;
+  line-height: 80px;
+  padding: 12px 30px;
 }
 
-.grid-layout{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.greeting{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 95px;
+}
+
+.greet-text{
+  font-size: 120px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+}
+
+.article-showcase{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.showcase-title{
+  font-size: 125px;
+  margin: 0;
+  margin-top: 150px;
+  padding: 5px 15px;
+}
+
+.showcase-subtitle{
+  font-size: 35px;
+  margin: 0;
+  padding-top: 15px;
+}
+
+.article-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 25px;
+}
+
+.article-card {
+  width: 325px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.article-card img{
+  width: 100%;
+  height: auto;
+}
+
+.article{
+  padding: 16px;
+}
+
+.article h3{
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.article p{
+  font-size: 15px;
+  color: #666;
+  line-height: 1.3;
+}
+
+.article .bnt{
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  text-decoration: none;
+  margin-top: 16px;
+  border-radius: 4px;
 }
