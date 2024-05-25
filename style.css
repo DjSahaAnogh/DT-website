@@ -72,7 +72,7 @@ nav ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-top: 95px;
 }
 
@@ -245,8 +245,10 @@ ul {
   color: #fff;
 }
 .contact .content p{
+  font-size: 28px;
   font-weight: 300;
   color: #fff;
+  margin-bottom: 20px;
 }
 
 .contactinfo{
@@ -405,7 +407,7 @@ ul {
   display: grid;
   gap: 18px;
   overflow-x: auto;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(12, 1fr);
 }
 
 .slider-wrapper-2 .img-list-2{
@@ -425,7 +427,63 @@ ul {
 .event-container h1{
   padding: 60px;
   color: #444;
-  font-size: 20px;
   line-height: 50px;
   font-size: 85px;
+}
+
+/* Article style */
+
+.story-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 65px;
+  flex-direction: column;
+}
+
+.story{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #f0f0f0;
+  border-radius: 6px;
+  width: 95%;
+  min-height: 25px;
+  margin: 25px;
+  overflow: hidden;
+}
+
+.story-data{
+  padding: 25px 10px;
+}
+
+.s-title{
+  color: #444;
+  line-height: 55px;
+  font-size: 55px;
+  margin: 0;
+  padding: 10px;
+}
+
+.dis{
+  color: #444;
+  font-size: 25px;
+  line-height: 25px;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.s-pic{
+  width: 325px;
+  height: auto;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.s-bnt{
+  padding: 8px 16px;
+  background-color: #333;
+  text-decoration: none;
+  border-radius: 4px;
 }
