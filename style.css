@@ -32,7 +32,7 @@ a {
   padding: 10px 25px;
   text-decoration: none;
   background-color: #23679e;
-  background-image: url(/pics/code_1_loop_img.jpg);
+  background-image: url(/pics/giphy.gif);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -486,4 +486,37 @@ ul {
   background-color: #333;
   text-decoration: none;
   border-radius: 4px;
+}
+
+/* articles style */
+
+.article-header{
+  margin-bottom: 35px;
+  padding: 15px;
+  font-size: 75px;
+  text-align: justify;
+}
+
+.article-2nd-header{
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 45px;
+  text-align: justify;
+}
+
+.article-text{
+  margin-bottom: 0;
+  padding: 5px;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: justify;
+}
+
+.text{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 65px;
+  margin: 95px;
 }
