@@ -512,7 +512,7 @@ ul {
   text-align: justify;
 }
 
-.text{
+.text-body{
   display: flex;
   justify-content: space-around;
   align-items: center;
