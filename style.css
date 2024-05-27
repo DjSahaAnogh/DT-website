@@ -220,7 +220,7 @@ ul {
 
 /* Contact style */
 .contact-body{
-  background-image: url(/pics/7010d1e88b80578f3d4e6fc09c2a2379.jpeg);
+  background-image: url(/pics/Small-TypicalNYDay.png);
   background-size: cover;
 }
 
@@ -244,7 +244,7 @@ ul {
   font-weight: 600;
   color: #fff;
 }
-.contact .content p{
+.content-p{
   font-size: 28px;
   font-weight: 300;
   color: #fff;
@@ -257,17 +257,32 @@ ul {
   gap: 75px;
 }
 
+.data{
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+}
+
 .contact-p{
   margin: 0;
   padding: 0;
-  line-height: 22px;
-  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+  line-height: 28px;
+  font-size: 24px;
+}
+
+.con-h3{
+  font-weight: bolder;
+  font-size: 28px;
+  color: #000;
 }
 
 .contact-form{
   width: 75%;
   padding: 40px;
   background: #fff;
+  border-radius: 8px;
 }
 
 .contact-form h2{
