@@ -538,3 +538,25 @@ ul {
 }
 
 /* table style */
+
+.t-head{
+  padding: 60px;
+  color: #444;
+  font-size: 40px;
+  margin: auto;
+  line-height: 50px;
+}
+
+.pic-body{
+  flex-direction: column;
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-pic{
+  max-width: 85%;
+  height: auto;
+  border-radius: 10px;
+}
