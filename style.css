@@ -537,6 +537,23 @@ ul {
   margin: 95px;
 }
 
+.picsInWeb{
+  display: flex;
+  justify-content: space-evenly;
+  width: 85%;
+  padding: 25px 35px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #555;
+  border-radius: 14px;
+}
+
+.pic-fr-article{
+  height: auto;
+  width: 40%;
+  border-radius: 12px;
+}
+
 /* table style */
 
 .t-head{
